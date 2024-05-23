@@ -1,6 +1,7 @@
 from pyzipcode import ZipCodeDatabase
 zcdb = ZipCodeDatabase()
-in_radius = [z.zip for z in zcdb.get_zipcodes_around_radius('07430', 3)] # ('ZIP', radius in miles)
+in_radius = [z.zip for z in zcdb.get_zipcodes_around_radius('75034', 9)] # ('ZIP', radius in miles)
 radius_utf = [x.encode('UTF-8') for x in in_radius] # unicode list to utf list
+print(type(in_radius[0]))
 print(in_radius)
 #print(radius_utf)

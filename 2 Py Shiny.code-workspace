@@ -1,11 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../DATA/Ready_Data"
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../DATA/Ready_Data"
+        },
+        {
+            "path": "../DATA"
+        }
+    ]
 }
